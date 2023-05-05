@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>niveau</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<style>
+
+</style>
+</head>
+<body>
+<div class="col-md-4 mx-auto mt-5">
+	<div class=" form mb-3">
+	<form action="niveau.jsp" method="post">
+	<div class="form-floating mb-3 ">
+		<input type="text" class="form-control"  placeholder="Nom" name="nom">
+	</div>
+	<b>Quelles sont vos connaissances de HTML?</b><br>
+	<div class="form-check form-check-inline">
+		<input class="form-check-input" type="radio" name="choix1" id="flexRadioDefault1" value="1">
+			faibles
+		
+	</div>
+	<div class="form-check form-check-inline">
+		<input class="form-check-input" type="radio" name="choix1" value="2">
+			moyennes
+	</div>
+	<div class="form-check form-check-inline">
+		<input class="form-check-input" type="radio" name="choix1" value="3">
+			bonnes
+	</div>
+		
+		<b>Indiquez votre expertiseen programmation:</b><br>
+		<div class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="choix2" value="1">
+		    absente
+		</div>
+		<div class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="choix2" value="2">
+		    moyenne
+		</div>
+		<div class="form-check form-check-inline mb-3">
+		  <input class="form-check-input" type="radio" name="choix3" value="3">
+		    bonne
+		</div>
+		<button class="btn btn-info form-control mb-3"> Voir le resultat!</button>
+		</form>
+	</div>
+</body>
+</html>
